@@ -6,3 +6,14 @@ module.exports = {
     },
     plugins: [],
   }
+
+  module.exports = {
+  theme: {
+    extend: {
+      backgroundImage: {
+      
+        'bg-image': "url('../images/banner1.png')",
+      }
+    }
+  }
+}
